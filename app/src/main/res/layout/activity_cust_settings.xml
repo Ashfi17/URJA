@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kaaf.jruaa.CustSettingsActivity">
+
+    <include
+        layout="@layout/app_bar_others"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        app:srcCompat="@drawable/male_avatar" />
+
+    <ImageButton
+        android:id="@+id/map_button"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/send_map" />
+
+    <TextView
+        android:id="@+id/Settings_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/map_button"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/map_button"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/male_avatar" />-->
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "65133680026",
+    "firebase_url": "https://jruaa-dabaf.firebaseio.com",
+    "project_id": "jruaa-dabaf",
+    "storage_bucket": "jruaa-dabaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65133680026:android:e1cb4f728999c548",
+        "android_client_info": {
+          "package_name": "kaaf.jruaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65133680026-fujlvgd50lgjs3hv8k283g3c8f4djtld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kaaf.jruaa",
+            "certificate_hash": "3588f7630b31629c5e8bcad74d29dd01786b9e26"
+          }
+        },
+        {
+          "client_id": "65133680026-s9idje5j04viq9tiq27gs67ho76jegnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgea-fUg6za92ogk4PXi7eBgA8EzbD728"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65133680026-s9idje5j04viq9tiq27gs67ho76jegnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
